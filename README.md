@@ -6,10 +6,15 @@
 
 ## 설치와 실행
 
-```sh
-# Java 8 이상
-curl -LO https://github.com/simtg-cre/WADP_PUBLIC_DEPLOY/releases/download/GIT_20261028_1347/WADP_20261028_1347_GIT_jdk8.tar.gz
+1. 받기
 
+```sh
+curl -LO https://github.com/simtg-cre/WADP_PUBLIC_DEPLOY/releases/download/GIT_20261028_1347/WADP_20261028_1347_GIT_jdk8.tar.gz
+```
+
+2. 압축 풀고 실행
+
+```sh
 tar xzf WADP_20261028_1347_GIT_jdk8.tar.gz
 cd WADP_20261028_1347_GIT_jdk8
 ./whatap_auto_deploy_collector.sh
